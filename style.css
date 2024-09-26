@@ -1,0 +1,487 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+}
+
+.body {
+    /*width: 1280px;*/
+    margin: 0 auto;
+}
+
+.header-block {
+    height: 908px;
+    background: linear-gradient(0deg, #211F20, #211F20),
+    radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+
+    /*background: linear-gradient(0deg, #211F20, #211F20), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%);*/
+    /*background: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%);*/
+}
+
+.header {
+    margin: 0 auto;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    height: 60px;
+    color: #FFFFFF;
+}
+
+.header_logo {
+    width: 250px;
+}
+
+.cursor-interactive {
+    cursor: pointer;
+}
+
+
+.title {
+    font-family: Georgia;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 35.2px;
+    color: #F1CDB3;
+    padding-bottom: 10px;
+}
+
+.subtitle {
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 14.95px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list {
+    width: 443px;
+    height: 27px;
+
+    display: flex;
+    justify-content: space-between;
+
+    padding-left: 0;
+
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #CDCDCD;
+}
+
+.first {
+    border-bottom: 3px;
+    border-bottom-color: #F1CDB3;
+    border-bottom-style: solid;
+}
+
+.cursor-first {
+    cursor: default;
+}
+
+.not-only-block {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 728px;
+    color: #FFFFFF;
+}
+
+.not-only-text-block {
+    width: 460px;
+    height: 322px;
+}
+
+.not-only-text-block_h2 {
+    width: 310px;
+    height: 114px;
+    font-family: Georgia;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 57.2px;
+}
+
+.not-only-text-block_p {
+    padding: 42px 0;
+    font-family: Arial;
+    font-size: 15px;
+    line-height: 24px;
+    color: #CDCDCD;
+    height: 72px;
+}
+
+.not-only-text-block_button {
+    cursor: pointer;
+    padding: 15px 45px;
+    gap: 10px;
+    border-radius: 100px;
+    background-color: #F1CDB3;
+    color: #292929;
+
+    font-family: Georgia;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22.1px;
+    border: 0;
+}
+
+.about-block {
+    /*width: 1280px;*/
+    height: 588px;
+
+}
+
+.about-block-wrapper {
+    padding: 80px 40px 100px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-block-text {
+    padding: 14px 0 14px 120px;
+    width: 430px;
+    height: 380px;
+    display: grid;
+    grid-gap: 25px;
+}
+
+.about-block-text-header {
+    width: 370px;
+
+
+    font-family: Georgia;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 45.5px;
+    letter-spacing: 0.06em;
+    text-align: left;
+}
+
+.about-block-text-paragraph {
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.our-friends-block {
+    background-color: #F6F6F6;
+}
+
+.our-friends-block-wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    height: 697px;
+    padding: 80px 40px 100px 40px;
+    color: #545454;
+    display: grid;
+    grid-gap: 60px;
+}
+
+.our-friends-block-header {
+    display: flex;
+    justify-content: center;
+}
+
+.our-friends-block-header_head {
+    font-family: Georgia;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 45.5px;
+    letter-spacing: 0.06em;
+    text-align: center;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.button-hover-color:hover {
+    cursor: pointer;
+    background: #FDDCC4;
+    /*background: rgba(241, 205, 179, 1);*/
+}
+
+.button-hover-white:hover {
+    cursor: pointer;
+    background: #FDDCC4;
+
+    /*background: #FFFFFF;*/
+    /*border: 2px solid rgba(241, 205, 179, 1)*/
+}
+
+.cursor-interactive {
+    cursor: pointer;
+}
+
+.our-friends-block-cards-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.our-friends-block-cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.our-friends-block-cards-arrow {
+    padding: 23px 19px 23px 19px;
+    border-radius: 100px;
+
+    border: 2px solid rgba(241, 205, 179, 1)
+}
+
+.arrow-left {
+    margin-right: 53px;
+}
+
+.arrow-right {
+    margin-left: 53px;
+    transform: rotate(180deg);
+}
+
+.card {
+    width: 270px;
+    height: 435px;
+    background-color: #FAFAFA;
+}
+
+.card_title {
+    padding: 30px 0;
+    font-family: Georgia;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22.72px;
+    letter-spacing: 0.06em;
+    text-align: center;
+}
+
+.wrapper-card_button {
+    display: flex;
+    justify-content: center;
+}
+
+.card_button {
+    font-family: Georgia;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22.1px;
+    letter-spacing: 0.06em;
+    text-align: left;
+
+    padding: 15px 45px 15px 45px;
+    gap: 10px;
+    border-radius: 100px;
+    border: 2px solid #F1CDB3;
+    background-color: #F6F6F6;
+}
+
+.help-block {
+    margin: 0 auto;
+    width: 1200px;
+    height: 431px;
+    padding: 80px 40px 100px 40px;
+    display: grid;
+    grid-gap: 60px;
+}
+
+.help-block-header {
+    display: flex;
+    justify-content: center;
+}
+
+.help-block-header_head {
+    color: #545454;
+    font-family: Georgia;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 45.5px;
+    letter-spacing: 0.06em;
+    text-align: center;
+}
+
+.help-block-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.help-block-cards_second-line {
+    padding-top: 55px;
+}
+
+.help-block-cards-img {
+    display: flex;
+    justify-content: center;
+}
+
+.help-block-cards_card {
+    height: 113px;
+}
+
+.help-block-cards-title {
+    padding-top: 30px;
+    color: #545454;
+    font-family: Georgia;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    text-align: center;
+}
+
+.in-additional-block {
+    background-color: #F6F6F6;
+}
+
+.in-additional-block-wrapper {
+    margin: 0 auto;
+    width: 915px;
+    height: 282px;
+    padding: 80px 182px 100px 183px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.in-additional-block-puppy {
+    padding: 11px 30px 10px 0;
+}
+
+.in-additional-block-header {
+    display: grid;
+    grid-gap: 20px;
+    color: #545454;
+}
+
+
+.in-additional-block-header_title {
+    width: 300px;
+    font-family: Georgia;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 45.5px;
+    letter-spacing: 0.06em;
+    text-align: left;
+}
+
+.in-additional-block-header_subtitle {
+    font-family: Georgia;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 16.5px;
+    letter-spacing: 0.06em;
+    text-align: left;
+}
+
+.in-additional-block-header_credit-card {
+    width: 349px;
+    display: flex;
+    align-items: center;
+    border-radius: 9px;
+    background: #F1CDB3;
+}
+
+.in-additional-block-header_credit-card-svg {
+    padding: 10px 15px;
+}
+
+.in-additional-block-header_credit-card-header {
+    font-family: Georgia;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    text-align: left;
+}
+
+.in-additional-block-header_small-text {
+    font-family: Arial;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: #B2B2B2;
+}
+
+.footer {
+    padding: 40px 40px 0 40px;
+    /*background: url(noise_lines_transparent@2X.png), radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20;*/
+    background: linear-gradient(0deg, #211F20, #211F20),
+    radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+
+.footer-wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    height: 310px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-column {
+    width: 279px;
+    height: 234px;
+    display: grid;
+    /*grid-gap: 33px;*/
+}
+
+.second-column {
+    width: 302px;
+    height: 234px;
+    display: grid;
+    justify-content: space-between;
+    grid-gap: 23px;
+}
+
+.footer-wrapper-block {
+    padding-top: 16px;
+}
+
+.footer-wrapper-header-title {
+    color: #FFFFFF;
+    font-family: Georgia;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 45.5px;
+    letter-spacing: 0.06em;
+}
+
+.footer-wrapper-header-svg {
+    padding: 5px 20px 4px 0;
+}
+
+.footer-wrapper-header-text {
+    display: flex;
+    align-items: center;
+}
+
+.footer-wrapper-header-subtext {
+    font-family: Georgia;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    color: #F1CDB3;
+    padding: 5px 0;
+}
+
+.footer-wrapper-header-subtext {
+
+}
